@@ -125,7 +125,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.CompareTag("Finish"))
         {
-            Invoke("LoadLevel", 2);
+            Invoke("LoadNextLevel", 2);
         }
     }
 
